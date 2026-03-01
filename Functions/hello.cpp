@@ -3,7 +3,11 @@ using namespace std;
 void sayHello(){
     cout<<"Hello user :)\n";
 }
-int main() {
+void assistant(){
     sayHello();
+    cout<<"work done sir\n";
+}
+int main() {
+assistant();
     return 0;
 }
