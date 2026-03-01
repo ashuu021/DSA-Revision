@@ -10,6 +10,9 @@ int diff(int a ,int b){
 }
 int main() {
     int s =sum(4,6);
+    int d =diff(4,6);
+    
     cout<<"Sum is :"<<s<<endl;
+    cout<<"Difference  is :"<<d<<endl;
     return 0;
 }
