@@ -1,7 +1,21 @@
 #include <iostream>
 using namespace std;
-
-int main() {
+bool isEven(int n ){
+    if (n%2==0)
+    {
+        return true;
+    }
+    else{
+        return false;
+    }
     
+}
+int main() {
+int even = isEven(49);
+if (even){
+    cout<<"Even";
+}else{
+    cout<<"Odd";
+}
     return 0;
 }
