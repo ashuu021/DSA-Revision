@@ -13,6 +13,8 @@ long long factorial(int n){
 
 int main() {
     cout << factorial(0) << endl;
+    cout << factorial(0) << endl;
+    cout << factorial(0) << endl;
     cout << factorial(1) << endl;
     cout << factorial(10) << endl;
     cout << factorial(20) << endl;
