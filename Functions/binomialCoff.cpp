@@ -9,8 +9,8 @@ int factorial(int n){
 }
 int binoCoff(int n ,int r){
     int val1=factorial(n);
-    int val2=r;
-    int val3=n-r;
+    int val2=factorial(r);
+    int val3=factorial(n-r);
     int result=val1/(val2*val3);
 return result;
 }
