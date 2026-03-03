@@ -10,10 +10,11 @@ while (n>rev)
   n/=10;
 }
 
-    return n==rev || rev==rev/10;
+    return n==rev || n==rev/10;
 }
 int main() {
-    cout << isPalindrome(121) << endl;  // 1 (true)
     cout << isPalindrome(123) << endl;  // 0 (false)
+    cout << isPalindrome(101) << endl;  // 0 (true)
+    cout << isPalindrome(121) << endl;  // 1 (true)
     cout << isPalindrome(-121) << endl; // 0 (false)
 }
