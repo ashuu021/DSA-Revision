@@ -13,18 +13,18 @@ int main() {
     cout<<*ptr1;
     return 0;
 }
-// 
-#include <iostream>
-using namespace std;
+// // 
+// #include <iostream>
+// using namespace std;
 
-int main() {
-    int a=10;
-    int *ptr =&a;
-    int **ptr1=&ptr;
+// int main() {
+//     int a=10;
+//     int *ptr =&a;
+//     int **ptr1=&ptr;
 
-    cout<<ptr<<"=="<<&a<<endl;
-    cout<<"value of a = "<<*ptr;
-    cout<<ptr1<<"=="<<&ptr<<endl;
-    cout<<*ptr1;
-    return 0;
-}
+//     cout<<ptr<<"=="<<&a<<endl;
+//     cout<<"value of a = "<<*ptr;
+//     cout<<ptr1<<"=="<<&ptr<<endl;
+//     cout<<*ptr1;
+//     return 0;
+// }
